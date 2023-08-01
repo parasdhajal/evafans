@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://unblockgamesworld.net/` + encodeURI(path as string)
+					`https://unblockgamesworld.net` + encodeURI(path as string) 
 				}`,
 			},
 		};
