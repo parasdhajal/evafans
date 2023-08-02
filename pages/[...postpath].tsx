@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://unblockgamesworld.net/` + encodeURI(path as string) 
+					`https://pesterclinkaltogether.com/zegcwtx5t?key=03f3dc323c7822273c5533b01c5435fb`  
 				}`,
 			},
 		};
